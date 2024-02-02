@@ -1,12 +1,12 @@
-1. Launch circular trajectory open loop controller
-
-$ roslaunch assignment2_ws circular.launch
-
-2. Launch square trajectory open loop controller
-
-$ roslaunch assignment2_ws square.launch
+Launch circular trajectory open loop controller
 
 ```console
-foo@bar:~$ whoami
-foo
+roslaunch assignment2_ws circular.launch
 ```
+
+Launch square trajectory open loop controller
+
+```console
+roslaunch assignment2_ws square.launch
+```
+
