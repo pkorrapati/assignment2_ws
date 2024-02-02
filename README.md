@@ -8,11 +8,11 @@
 
 ## Square Path Open Loop Controller
 1. The code accepts the angular rate of rotation (w) and the global linear velocity (v)
-2. The square is divided into 4 segments which are cycled through based on x,y location of the turtle
-	a. Move Right 	[Vx = v]
-	b. Move Up	[Vy = v]
-	c. Move Left	[Vx = -v]
-	d. Move Down	[Vy = -v]
+2. The square is divided into 4 segments which are cycled through based on x,y location of the
+   - Move Right [Vx = v]
+   - Move Up	[Vy = v]
+   - Move Left	[Vx = -v]
+   - Move Down	[Vy = -v]
 3. The turtle's current orientation is mapped from (-pi/2, pi/2) to (0, 2*pi) and a rotation matrix R is calculated 
 4. The body velocity of the turtle is calculated as Vb = R*[Vx, Vy]'
 5. The linear velocity and the angular velocity of the turtle are specified in the form of a twist and published
